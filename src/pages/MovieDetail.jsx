@@ -71,7 +71,7 @@ function MovieDetail() {
                   style={{ spanStyle, color: "White", textAlign: "start" }}
                   className="mx-5"
                 >
-                  <Row>
+                   <Row>
                     <Col className="col-md-6 my-2">
                       <h1>{movie.original_title}</h1>
                     </Col>

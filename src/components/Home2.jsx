@@ -1,9 +1,10 @@
 import React from "react";
 import axios from "axios";
 import { useEffect, useState, useRef } from "react";
-import { Row, Col, Container, Image,  } from "react-bootstrap";
+import { Row, Col, Container, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Home2() {
   const [movies, setMovies] = useState([]);
@@ -33,8 +34,11 @@ function Home2() {
   return (
     <Container className="d-flex flex-column gap-2 ">
       <Row>
-        <Col>
+        <Col className="d-flex justify-content-between align-items-center">
           <h1>Popular Films</h1>
+          <h7 href="/movies/">
+            See More Populars!
+          </h7>
         </Col>
       </Row>
       <Row>
