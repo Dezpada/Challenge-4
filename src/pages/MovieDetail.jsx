@@ -1,8 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import {  Row, Col, Button } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { Link } from "react-router-dom";
 import NavbarPage from "../components/NavbarPage";
 import { MdStarOutline } from "react-icons/md";
 
