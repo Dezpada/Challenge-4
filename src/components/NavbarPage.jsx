@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Button, Navbar, Nav, Form } from "react-bootstrap";
-
 function NavbarPage() {
   return (
     <Navbar bg="transparent" expand="lg" className="fixed-top">
