@@ -1,6 +1,7 @@
 import Home from "./pages/Home";
 import { ToastContainer } from "react-bootstrap";
 import MovieDetail from "./pages/MovieDetail";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
