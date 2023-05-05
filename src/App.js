@@ -4,6 +4,7 @@ import { GoogleOAuthProvider } from "@react-oauth/google";
 import MovieDetail from "./pages/MovieDetail";
 import SearchPage from "./pages/SearchPage";
 import Login from "./pages/Login";
+import Register from "./pages/Register";
 import NoTokenAccess from "./components/NoTokenAccess";
 import Protected from "./components/Protected";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
