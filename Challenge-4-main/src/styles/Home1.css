@@ -1,0 +1,9 @@
+.imageDesc {
+  color: white;
+}
+
+.carousel {
+  /* margin: 0 20%; */
+  overflow: hidden;
+  cursor: grab;
+}
