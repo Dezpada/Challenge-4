@@ -24,7 +24,7 @@ function Register() {
 
       let config = {
         method: "post",
-        url: `${process.env.REACT_APP_API}/v1/auth/register`,
+        url: `${process.env.REACT_APP_API_KEY}/v1/auth/register`,
         headers: {
           "Content-Type": "application/json",
         },
