@@ -2,6 +2,7 @@ import Home from "./pages/Home";
 import { ToastContainer } from "react-bootstrap";
 import MovieDetail from "./pages/MovieDetail";
 import SearchPage from "./pages/SearchPage";
+import Register from "./pages/Register";
 import Login from "./pages/Login";
 import NoTokenAccess from "./components/NoTokenAccess";
 import Protected from "./components/Protected";
@@ -22,6 +23,14 @@ function App() {
               <Protected>
                 <MovieDetail />
               </Protected>
+            }
+          />
+           <Route
+            path="/Register"
+            element={
+              <NoTokenAccess>
+                <Register />
+              </NoTokenAccess>
             }
           />
           <Route
